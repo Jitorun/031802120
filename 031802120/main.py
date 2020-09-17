@@ -1,39 +1,45 @@
 import re
 import difflib
 import sys
+import jieba
+import jieba.analyse
 parameter1=sys.argv[1]
 parameter2=sys.argv[2]
 parameter3=sys.argv[3]
-def read_in_copy_txt(txtname):
-    global copyword
+def read_txt(txtname):
     file=open(txtname,"r",encoding="utf-8")
     r = '[’!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~\n。！， ]+'
-    copyword=file.read()
-    copyword=re.sub(r,'',copyword)
+    word=file.read()
+    word=re.sub(r,'',word)
     file.close()
-    #print(copyword)
-def read_in_original_txt(txtname):
-    global original
-    file=open(txtname,"r",encoding="utf-8")
-    r = '[’!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~\n。！， ]+'
-    original=file.read()
-    original=re.sub(r,'',original)
-    #print(original)
-    file.close()
-def string_similar(s1,s2):
-    return difflib.SequenceMatcher(None,s1,s2).quick_ratio()
+    return word
 def print_txt(txtname):
     temp_txt = open(txtname,'w')
     functionName()
-    a=("%.2f" % string_similar(copyword,original))
-    temp_txt.write(str(a))
+    ans=("%.2f" % jaccard())
+    temp_txt.write(str(ans))
 def functionName():
-    if copyword=="" or original=="":
+    if read_txt(parameter1)=="" or read_txt(parameter2)=="":
         raise "存在空白文档"
 def main():
-    read_in_original_txt(parameter1)
-    read_in_copy_txt(parameter2)
+    read_txt(parameter1)
+    read_txt(parameter2)
     print_txt(parameter3)
+def do_jieba(name):
+    jieba.analyse.set_stop_words("stopword.txt")
+    word=jieba.cut(name)
+    result=jieba.analyse.extract_tags("".join(word),topK=50)
+    return result
+def jaccard():
+    word1 = do_jieba(read_txt(parameter1))
+    word2 = do_jieba(read_txt(parameter2))
+    len_mixed = len(list(set(word1).intersection(set(word2))))
+    len_union = len(list(set(word1).union(set(word2))))
+    if len_union != 0:
+        temp = float(len_mixed) / len_union
+        return temp
+    else:
+        return 0
 
 if __name__== "__main__":
     main()
