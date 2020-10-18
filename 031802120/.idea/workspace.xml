@@ -35,29 +35,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Ai">
-    <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="031802120" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.puzzlegame2 (1)">
     <configuration name="Ai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="031802120" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,28 +58,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ai_puzzle1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="031802120" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ai_puzzle1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="cut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="031802120" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -135,7 +92,52 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cut_pit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="puzzlegame2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="031802120" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏部分" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏部分/puzzlegame2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="puzzlegame2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="031802120" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzlegame2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.puzzlegame2 (1)" />
         <item itemvalue="Python.Ai" />
+        <item itemvalue="Python.puzzlegame2" />
         <item itemvalue="Python.cut" />
         <item itemvalue="Python.cut_pit" />
-        <item itemvalue="Python.Ai_puzzle1" />
-        <item itemvalue="Python.A" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +167,7 @@
       <workItem from="1600313760490" duration="5766000" />
       <workItem from="1600347313351" duration="1528000" />
       <workItem from="1603022149998" duration="8000" />
+      <workItem from="1603023674655" duration="325000" />
     </task>
     <servers />
   </component>
@@ -176,22 +179,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602667611259" />
-    <state width="754" height="196" key="GridCell.Tab.0.bottom" timestamp="1603022872609">
+    <state width="754" height="196" key="GridCell.Tab.0.bottom" timestamp="1603023666463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603022872609" />
-    <state width="754" height="196" key="GridCell.Tab.0.center" timestamp="1603022872609">
+    <state width="754" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603023666463" />
+    <state width="754" height="196" key="GridCell.Tab.0.center" timestamp="1603023666462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603022872609" />
-    <state width="754" height="196" key="GridCell.Tab.0.left" timestamp="1603022872609">
+    <state width="754" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603023666462" />
+    <state width="754" height="196" key="GridCell.Tab.0.left" timestamp="1603023666462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603022872609" />
-    <state width="754" height="196" key="GridCell.Tab.0.right" timestamp="1603022872609">
+    <state width="754" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603023666462" />
+    <state width="754" height="196" key="GridCell.Tab.0.right" timestamp="1603023666463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="754" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603022872609" />
+    <state width="754" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603023666463" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600320570428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
